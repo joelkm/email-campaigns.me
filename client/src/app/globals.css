@@ -1,0 +1,104 @@
+:root {
+  /* COLOR START */
+
+  /* COLOR-BRAND-PRIMARY */
+  --primary-color-100: #754de8;
+  --primary-color-200: #2f1f5d;
+  --primary-color-300: #4d1f8b;
+  --primary-color-400: #baa6f4;
+
+  /* ACCENT COLORS */
+  --accent-color-100: #ea0022;
+  --accent-color-200: #ef4059;
+  --accent-color-300: #f2667a;
+  --accent-color-400: #f7a0ac;
+
+  /* SEMANTIC COLORS */
+  --semantic-color-100: #ffcf5c;
+  --semantic-color-200: #ffe29d;
+  --semantic-color-300: #fff8e7;
+  --semantic-color-400: #00c48c;
+  --semantic-color-500: #7ddfc3;
+  --semantic-color-600: #d5f2ea;
+
+  /* NEUTRAL COLORS */
+  --neutral-color-100: #1d1437;
+  --neutral-color-200: #463d61;
+  --neutral-color-300: #d5d1e0;
+  --neutral-color-400: #ebeaef;
+  --neutral-color-500: #f4f3f7;
+  --neutral-color-600: #ffffff;
+
+  /* TEXT-COLORS */
+  --main-text-color: #3f3356;
+
+  /* GRADIENT */
+  --main-gradient: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(143,143,143,1) 100%);
+
+  /* COLOR END */
+
+  /* Font Families */
+  --font-family-primary: "Raleway", sans-serif;
+  --font-family-secondary: "Moranga", serif;
+
+  /* Font Weights */
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Font Sizes */
+  --font-size-xxxl: 3rem;
+  --font-size-xxl: 2.125rem;
+  --font-size-xl: 1.375rem;
+  --font-size-l: 1.063rem;
+  --font-size-m: 0.938rem;
+  --font-size-s: 0.813rem;
+  --font-size-xs: 0.75rem;
+  --font-size-xxs: 0.688rem;
+
+  /* Line Heights */
+  --line-height-xxl: 2.563rem;
+  --line-height-xl: 1.75rem;
+  --line-height-l: 1.375rem;
+  --line-height-m: 1.25rem;
+  --line-height-s: 1.125rem;
+  --line-height-xs: 1rem;
+  --line-height-xxs: 0.813rem;
+
+  /* Shadows */
+  --drop-shadow-100: 0 0.438rem 4rem rgba(0, 0, 0, 0.07);
+  --drop-shadow-200: 0 0 0.625rem rgba(0, 0, 0, 0.07);
+  --drop-shadow-300: 0 0.438rem 1.25rem rgba(0, 0, 0, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-size: 8px;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(111.5deg, rgb(228, 247, 255) 21.9%, rgb(255, 216, 194) 92.2%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
